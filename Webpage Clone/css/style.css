@@ -1,0 +1,170 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,900&display=swap');
+</style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/assets/background-image.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
+
+.container {
+  background-image: url('/assets/hero-image.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 2%;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav list */
+.nav-list {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.nav-list a{  
+  list-style: none;
+  text-decoration: none;
+  color: #9fa1a0;
+  padding: 10px;
+  text-align: center;
+}
+/* search btn */
+.search {
+  display: flex;
+  align-items: center;
+}
+.search img {
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #ed017e;
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+/* navbar end */
+
+/* main */
+.main {
+  width: 100vw;
+  height: 70vh;
+ 
+}
+
+/* image main */
+
+
+.main-C {
+  margin-left: 166px;
+  margin-top: 50px;
+}
+
+.main-C h1 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.main-C > p {
+  color: #9fa1a0;
+  font-size: larger;
+}
+
+.apply-btn {
+  background-color: #ed017e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.loan-btn {
+  background-color: white;
+  color: #ed017e;
+  border: solid #ed017e;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  margin-left: 166px;
+}
+
+footer img{
+  margin: 5px;
+}
+
+.phone-Number {
+  padding-right: 5px;
+  border-right: 3px solid #9fa1a0;
+}
+
+.car-btn {
+  display: flex;
+  width: 130px;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: white;
+  color: #9fa1a0;
+  box-shadow: 0 0 10px 5px #9fa1a0;
+  position: absolute;
+  top: 60px;
+  left: 46%;
+}
+
+.house-btn{
+  display: flex;
+  width: 130px;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: white;
+  color: #9fa1a0;
+  box-shadow: 0 0 10px 5px #9fa1a0;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
